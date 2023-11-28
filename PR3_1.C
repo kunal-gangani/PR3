@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
 void main(){
-	char alpha=65;
+	char alpha='a';
 	clrscr();
 	do{
 		printf("%c ",alpha);
 		alpha+=4;
-	}while(alpha<=90);
+	}while(alpha<='z');
 	getch();
 }
